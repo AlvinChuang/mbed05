@@ -8,6 +8,6 @@ void blink(){
 }
 
 int main(){
-    time_up.attach( &blink, 0.2);
+    time_up.attach( &blink, 0.5);
     while(1);
 }
